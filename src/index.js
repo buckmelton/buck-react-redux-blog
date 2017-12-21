@@ -18,6 +18,7 @@ class Goodbye extends React.Component {
 }
 
 // Testing 123
+// Testing 456
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
