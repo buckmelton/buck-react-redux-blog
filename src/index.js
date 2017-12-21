@@ -17,6 +17,8 @@ class Goodbye extends React.Component {
   render() { return <div>Goodbye!</div> }
 }
 
+// Testing 123
+
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
