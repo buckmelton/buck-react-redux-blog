@@ -5,14 +5,12 @@ class PostsNew extends React.Component {
 
   renderTitleField(field) {
     return (
-      <div>
+      <div className="form-group">
+        <label>Title</label>
         <input
+          className="form-control"
           type="text"
           {...field.input}
-          // above replaces
-          // onChange={field.input.onChange}
-          // onFocus={field.input.onFocus}
-          // onBlur={field.input.onBlur}
         />
       </div>
     );
