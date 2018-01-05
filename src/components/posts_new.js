@@ -12,6 +12,7 @@ class PostsNew extends React.Component {
           type="text"
           {...field.input}
         />
+        {field.meta.error}
       </div>
     );
   }
@@ -35,6 +36,7 @@ class PostsNew extends React.Component {
             name="content"
             component={this.renderField}
           />
+          <button type="submit" className="btn btn-primary">Submit</button>
         </form>
       </div>
     );
