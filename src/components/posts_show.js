@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { fetchPost, deletePost } from '../actions';
 
 class PostsShow extends Component {
+  
   componentDidMount() {
     const { id } = this.props.match.params;
     this.props.fetchPost(id);
